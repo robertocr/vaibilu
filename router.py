@@ -34,7 +34,7 @@ def router(message, service):
         from workers.mm import get_mms
         response  = get_mms()
     elif "fonte" in hashtags:
-        response  = "github.com/vaibilu"
+        response  = "github.com/robertocr/vaibilu"
     else:
         from workers import duckduckgo
         response = duckduckgo.get_abstract(query)
