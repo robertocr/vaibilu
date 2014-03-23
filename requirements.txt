@@ -2,3 +2,6 @@ flask
 Flask-Mail
 sendgrid
 smtpapi
+HackerNews
+ThePirateBay
+Twython

@@ -10,6 +10,7 @@ class MyStreamer(TwythonStreamer):
             message = data['text'].encode('utf-8')
             status_id = data['id']
             response = router(message, "twitter")
+            # print response
             response = '@' + user + ' ' + response
             send_tweet(response[:140], status_id)
 

@@ -14,39 +14,49 @@ def router(message, service):
         for mention in list(extract_mentions( query )):
             query = query.replace(mention, "") #matando a mention, sei la
 
+
     if "torrent" in hashtags:
-        from workers import torrent
-        tor = torrent.get_torrent(query)
-        if tor:
-            if service == "sendgrid":
-                response = "<a href=%s>Baixar o melhor torrent para %s</a>" % (tor,query)
-            else:
-                response = "%s" % tor
-        else:
-            response = "Conhecimento Inexistente para vc"
+        try:
+            from workers import torrent
+            response = torrent.get_torrent(query)
+        except:
+            response = u"Serviço TPB em manutenção"
     elif "placar" in hashtags:
         response = u"não ocorre nenhum jogo agora, terráqueo."
     elif "hn" in hashtags:
-        from workers import hn
-        noticia = hn.get_hn()
-        response  = "<a href=%s>%s</a>" % (noticia.link,noticia.title)
+        try:
+            from workers import pega_hn
+            response  = pega_hn.get_hn(query)
+        except:
+            response = u"Serviço HN em manutenção"
+    elif "weather" in hashtags:
+        from workers import weather
+        response  = weather.get_weather(query)
     elif "mm" in hashtags:
         from workers.mm import get_mms
-        response  = get_mms()
+        response  = get_mms(query)
+    elif "porn" in hashtags:
+        from workers.porn import get_porn
+        response, extras  = get_porn(query)
     elif "fonte" in hashtags:
-        response  = "github.com/robertocr/vaibilu"
+        response  = u"http://github.com/robertocr/vaibilu #compartilhe_conhecimento"
     else:
         from workers import duckduckgo
         response = duckduckgo.get_abstract(query)
 
 
-
     if service == "sendgrid":
-        response = response+"<br>"+\
-	               "<br>-------<br>"+\
-	               "\"Busquem conhecimento\" - ET Bilu<br>" +\
-                   "<img src='http://vaibilu.com/static/bilu_small.jpg'>"
+        response = response+"<br>"
+        for extra in extras:
+            response += u"<img src='%s'>" % extra
+
+        response += u"<br>-------<br>"+\
+                   u"\"Busquem conhecimento\" - ET Bilu<br>" +\
+                   u"<img src='http://vaibilu.com/static/bilu_small.jpg'>"
     elif service == "twitter":
-        response = response[:160]
+        if response:
+            response = response[:160]
+        else:
+            response = u'Busquem conhecimento!'
 
     return response

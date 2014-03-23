@@ -10,3 +10,5 @@ def tstream():
 
 #if __name__ == "__main__":
 #    app.run()
+
+from twitter_streaming import tstream

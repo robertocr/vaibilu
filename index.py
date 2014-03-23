@@ -28,7 +28,7 @@ def hello():
             @vaibilu #weather varginha<br>
             ---<br>
             Sou muito jovem, tenho só 4010 anos,<br>
-            mas sei de muitas coisas (#hn #placar #mm #fonte)<br>
+            mas sei de muitas coisas (#placar #mm #porn #fonte)<br>
             Compartilhe conhecimento!!!
         </div>
         </body>
@@ -57,7 +57,7 @@ def get_email():
 # app.register_blueprint(torrent)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
     #aqui abre o twitter_streaming.py
 
 application = app
