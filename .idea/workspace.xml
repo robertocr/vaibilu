@@ -19,75 +19,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="twitter_mystreamer.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twitter_mystreamer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="29" selection-end="36" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#24#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="router.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/router.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="19" selection-start="2098" selection-end="2098" vertical-scroll-proportion="0.9391771">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="10" selection-start="2242" selection-end="2242" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="porn.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workers/porn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mm.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workers/mm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="15" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="respostas.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workers/respostas.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sendgrid_service.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sendgrid_service.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#24#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -100,19 +32,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/workers/duckduckgosdk/mm.py" />
-        <option value="$PROJECT_DIR$/twitter_streaming.py" />
-        <option value="$PROJECT_DIR$/sendgrid_service.py" />
         <option value="$PROJECT_DIR$/workers/utils.py" />
-        <option value="$PROJECT_DIR$/workers/torrent.py" />
         <option value="$PROJECT_DIR$/workers/hn.py" />
-        <option value="$PROJECT_DIR$/workers/pega_hn.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/workers/mm.py" />
         <option value="$PROJECT_DIR$/twitter_mystreamer.py" />
         <option value="$PROJECT_DIR$/workers/respostas.py" />
         <option value="$PROJECT_DIR$/index.py" />
+        <option value="$PROJECT_DIR$/workers/duckduckgo.py" />
+        <option value="$PROJECT_DIR$/workers/pega_hn.py" />
+        <option value="$PROJECT_DIR$/workers/torrent.py" />
+        <option value="$PROJECT_DIR$/workers/weather.py" />
         <option value="$PROJECT_DIR$/router.py" />
+        <option value="$PROJECT_DIR$/../Projetos/boneca/teste_chave.py" />
+        <option value="$PROJECT_DIR$/../Projetos/boneca/boneca.py" />
+        <option value="$PROJECT_DIR$/../Projetos/boneca/README.rst" />
+        <option value="$PROJECT_DIR$/../Projetos/boneca/setup.py" />
       </list>
     </option>
   </component>
@@ -220,24 +155,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vaibilu.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vaibilu.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duckduckgosdk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -247,7 +164,7 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projetos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projetos/boneca" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -296,7 +213,24 @@
       <recent name="C:\Users\Fernando Alves\Dropbox\vaibilu.com\workers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.vaibilu.com">
+  <component name="RunManager" selected="Python.boneca">
+    <configuration default="false" name="boneca" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Projetos/boneca" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="vaibilu.com" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Projetos/boneca/boneca.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,7 +253,7 @@
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
-      <module name="vaibilu.com" />
+      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -364,9 +298,15 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Python.vaibilu.com" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.boneca" />
+      <item index="1" class="java.lang.String" itemvalue="Python.vaibilu.com" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.boneca" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
@@ -397,7 +337,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -472,122 +412,100 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/workers/duckduckgo.py">
+    <entry file="file://$PROJECT_DIR$/sendgrid/message.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="19" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.9391771">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/flask/blueprints.py">
+    <entry file="file://$PROJECT_DIR$/twitter_mystreamer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="60" selection-start="3522" selection-end="3522" vertical-scroll-proportion="0.36314848">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1018" column="8" selection-start="44765" selection-end="44765" vertical-scroll-proportion="0.9391771">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitter_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="366" selection-end="366" vertical-scroll-proportion="0.3041145">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitter_streaming.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="21" selection-start="220" selection-end="220" vertical-scroll-proportion="0.21288015">
-          <folding>
-            <element signature="e#24#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="12" selection-start="57" selection-end="57" vertical-scroll-proportion="0.15205725">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="29" selection-end="36" vertical-scroll-proportion="0.12164579" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/workers/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="145" selection-end="145" vertical-scroll-proportion="0.15205725">
-          <folding />
-        </state>
+        <state line="9" column="76" selection-start="336" selection-end="336" vertical-scroll-proportion="0.27370304" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config/sendgrid_conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="88" selection-end="106" vertical-scroll-proportion="0.12164579" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sendgrid_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="40" selection-start="491" selection-end="491" vertical-scroll-proportion="0.39534885" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/workers/torrent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="19" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.9391771">
+        <state line="64" column="0" selection-start="2119" selection-end="2119" vertical-scroll-proportion="0.69588554">
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter_mystreamer.py">
+    <entry file="file://$PROJECT_DIR$/workers/pega_hn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="29" selection-end="36" vertical-scroll-proportion="0.0">
+        <state line="37" column="8" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.66547406">
           <folding>
-            <element signature="e#24#59#0" expanded="true" />
+            <element signature="e#16#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workers/pega_hn.py">
+    <entry file="file://$PROJECT_DIR$/workers/duckduckgo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="22" selection-start="276" selection-end="276" vertical-scroll-proportion="0.3649374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sendgrid_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+        <state line="102" column="0" selection-start="3092" selection-end="3092" vertical-scroll-proportion="0.9087657">
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workers/respostas.py">
+    <entry file="file://$PROJECT_DIR$/.dropbox">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workers/weather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="1693" selection-end="1693" vertical-scroll-proportion="0.60465115">
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workers/mm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="15" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/../Projetos/boneca/boneca.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workers/porn.py">
+    <entry file="file://$PROJECT_DIR$/../Projetos/boneca/README.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="82" selection-start="276" selection-end="276" vertical-scroll-proportion="0.1824687" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="10" selection-start="2242" selection-end="2242" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Projetos/boneca/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="193" selection-end="193" vertical-scroll-proportion="0.21288015" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Projetos/boneca/boneca.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="42" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.9391771" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/router.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="19" selection-start="2098" selection-end="2098" vertical-scroll-proportion="0.9391771">
+        <state line="68" column="19" selection-start="2793" selection-end="2793" vertical-scroll-proportion="0.17889088">
           <folding />
         </state>
       </provider>

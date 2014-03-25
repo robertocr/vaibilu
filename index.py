@@ -44,9 +44,12 @@ def get_email():
     email_from = request.form["from"].encode('utf8')
     subject = request.form["subject"].encode('utf8')
 
-    response = router(subject, "sendgrid")
+    response = router(subject, "sendgrid", email=email_from, subject = subject)
 
-    return send_email(response, email_from, subject)
+    if response != 'SAIR':
+        return send_email(response, email_from, subject)
+    else:
+        return "OK"
 
 
 # receive and send
